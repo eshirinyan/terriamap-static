@@ -11,7 +11,7 @@
      "id": "DL4Av6wY5h",
      "type": "3d-tiles",
      "name": "Sofia 3d Buildings",
-     "url": "tiles/tileset.json",
+     "url": "https://raw.githubusercontent.com/eshirinyan/three_sample/refs/heads/main/3dtiles_pg2b3dm_20250102/tileset.json",
      "show": true,
    
    "info": [
