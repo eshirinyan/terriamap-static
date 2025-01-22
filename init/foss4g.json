@@ -1,19 +1,75 @@
 {
-  "homeCamera": {
-    "north": -35,
-    "east": 152,
-    "south": -47,
-    "west": 140
-  },
-  "catalog": [
-    {
-      "name": "FOSS4G Group",
-      "type": "group",
-      "members": []
-    }
-  ],
-  "viewerMode": "3dSmooth",
-  "baseMaps": {
-    "previewBaseMapId": "basemap-positron"
-  }
-}
+    "homeCamera": {
+       "north": 42.711528,  // Closer to the south
+       "east": 23.383278,   // Closer to the west
+       "south": 42.651483,  // Closer to the north
+       "west": 23.265672    // Closer to the east
+   },
+     "catalog": [
+ 
+   {
+     "id": "trees1",
+     "type": "3d-tiles",
+     "name": "Sofia street trees",
+     "url": "https://raw.githubusercontent.com/eshirinyan/three_sample/refs/heads/main/3dtiles_20241220/tileset.json",
+     "show": true,
+   
+   "info": [
+           {
+             "name": "Custom Styles",
+             "content": "{\"style\": \"default\"}"  // Storing an object as a JSON string
+           },
+           {
+             "name": "Available Styles",
+             "content": "[\"default\", \"high-detail\", \"low-detail\"]"  // Storing an array as a JSON string
+           }
+         ],
+   
+     "highlightColor": "color('white', 0.7)"
+   },
+
+   {
+       "id": "uhi1",
+       "name": "WBGT 2018-08-22 16 00",
+         "type": "esri-mapServer",
+         "url": "https://tiles-eu1.arcgis.com/XYGfXK4rEYwaj5A0/arcgis/rest/services/wbgt_combined_polygons_temperature_16012025_no_transp/MapServer",
+   //      "layers": "0",
+         "opacity": 1.0,
+         "description": "WBGT UHI gradient",
+         "show": true // Ensures the layer is not shown on load
+      //   "zoomOnEnable": true
+   },
+   {
+    "id": "uhi2",
+         "name": "WBGT 2018-08-22 16 00 initial",
+         "type": "esri-mapServer",
+         "url": "https://tiles-eu1.arcgis.com/XYGfXK4rEYwaj5A0/arcgis/rest/services/WBGT_22082018_1600_brighter_colors/MapServer",
+   //      "layers": "0",
+         "opacity": 1.0,
+         "description": "WBGT WRF gradient",
+         "show": false // Ensures the layer is not shown on load
+      //   "zoomOnEnable": true
+   },
+   {
+    "id": "streetrad",
+         "name": "Street total solar radiation 2018-08-22 16 00",
+         "type": "esri-mapServer",
+         "url": "https://tiles-eu1.arcgis.com/XYGfXK4rEYwaj5A0/arcgis/rest/services/sofia_builtup_dsm_1m_solar_22082018_1600_with_trees_3857/MapServer",
+   //      "layers": "0",
+         "opacity": 1.0,
+         "description": "Street total solar radiation 2018-08-22 16 00",
+         "show": false // Ensures the layer is not shown on load
+      //   "zoomOnEnable": true
+   },
+
+     ],
+   
+   
+     "workbench": ["uhi1", "uhi2", "trees1", "streetrad"], "viewerMode": "3d", "cesiumIonAccessToken": 
+     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4ZTQxZDgwMC03NTkzLTQ5MzgtOGJiMS04MDg2ZDIzODc3NjMiLCJpZCI6NzE5OTEsImlhdCI6MTcyNDYxNzg2NX0.kdweU6-k4vx_2YW25xRtMsUsKGLz332sWAsB5pI9T-k"
+   }
+   
+   //
+   
+   
+   
