@@ -453,11 +453,14 @@
       //   "zoomOnEnable": true
    
    
-   }
+   },
+    {
+      "id": "aw3d","name": "msc_aw3d", "type": "cesium-terrain","url": "test/terrain_msc_bertt"       
+    }
      ],
    
    
-     "workbench": ["DL4Av6wY5h", "B8gpm2I3gG", "B8gpm2I3gC", "B8gpm2I3gD", "B8gpm2I3gE", "B8gpm2I3gF"], "viewerMode": "3d", "cesiumIonAccessToken": 
+     "workbench": ["DL4Av6wY5h", "B8gpm2I3gG", "B8gpm2I3gC", "B8gpm2I3gD", "B8gpm2I3gE", "B8gpm2I3gF","aw3d"], "viewerMode": "3d", "cesiumIonAccessToken": 
      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4ZTQxZDgwMC03NTkzLTQ5MzgtOGJiMS04MDg2ZDIzODc3NjMiLCJpZCI6NzE5OTEsImlhdCI6MTcyNDYxNzg2NX0.kdweU6-k4vx_2YW25xRtMsUsKGLz332sWAsB5pI9T-k"
    }
    
