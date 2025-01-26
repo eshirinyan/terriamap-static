@@ -26,8 +26,7 @@
   }
    ],
    "workbench": ["DL4Av6wY5X","aw3d","msc_okn"], "viewerMode": "3d", "baseMaps": {
-    "defaultBaseMapId": "basemap-openstreetmap",
-    "previewBaseMapId": "basemap-natural-earth-II"
+    "defaultBaseMapId": "basemap-positron"
     }
   }
  
