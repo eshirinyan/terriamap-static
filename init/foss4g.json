@@ -1,14 +1,10 @@
 {
   "homeCamera": {
-    "positionHeading": {
-        "cameraLongitude": 37.545,
-        "cameraLatitude": 55.706,
-        "cameraHeight": 500,
-        "heading": 0,
-        "pitch": -45,
-        "roll": 0
-    }
-},
+     "north": 55.761528,  // Closer to the south
+     "east": 37.563278,   // Closer to the west
+     "south": 55.751483,  // Closer to the north
+     "west": 37.455672    // Closer to the east
+ },
    "catalog": [
 
  {
