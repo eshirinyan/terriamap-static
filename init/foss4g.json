@@ -17,9 +17,14 @@
  {
     "id": "aw3d","name": "msc_aw3d", "type": "cesium-terrain","url": "test/tiles"
   
- }
+ },
+ {
+    "type": "geojson",
+    "url": "https://raw.githubusercontent.com/eshirinyan/three_sample/refs/heads/main/data-9773-2023-01-19_with_geo_OKN_msc.geojson",
+    "name": "Cultural heritage",
+    "id": "msc_okn"
+  }
    ],
-   "workbench": ["DL4Av6wY5X","aw3d"], "viewerMode": "3d", "cesiumIonAccessToken": 
-   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJjNWUzZmI0ZS02NDcxLTRlNjktYTcyYi00OWZlNTA4ZmViMTAiLCJpZCI6NDY4MjksImlhdCI6MTYxNjYwMTM4Nn0.3KOIXUjF4QpChsVKmW9pNy5WdE6qi3C61jBJc9VJGIQ"
+   "workbench": ["DL4Av6wY5X","aw3d","msc_okn"], "viewerMode": "3d"
   }
  
