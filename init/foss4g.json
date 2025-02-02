@@ -23,9 +23,16 @@
     "url": "https://raw.githubusercontent.com/eshirinyan/three_sample/refs/heads/main/data-9773-2023-01-19_with_geo_OKN_msc.geojson",
     "name": "Cultural heritage",
     "id": "msc_okn"
+  },
+  {
+    "name": "cog sentinel",
+    "description": " ",
+    "type": "cog",
+    "url": "https://marchi.nextgis.com/api/resource/87/cog",
+    "id": "cog_id"
   }
    ],
-   "workbench": ["DL4Av6wY5X","aw3d","msc_okn"], "viewerMode": "3d", "baseMaps": {
+   "workbench": ["DL4Av6wY5X","aw3d","msc_okn","cog_id"], "viewerMode": "3d", "baseMaps": {
     "defaultBaseMapId": "basemap-positron"
     }
   }
