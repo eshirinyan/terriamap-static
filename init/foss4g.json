@@ -30,9 +30,16 @@
     "type": "cog",
     "url": "https://marchi.nextgis.com/api/resource/87/cog",
     "id": "cog_id"
+  },
+  {
+    "name": "wms resurs p4",
+    "description": "2025",
+    "type": "wms",
+    "url": "https://marchi.nextgis.com/api/resource/115/wms",
+    "id": "msc_wms_2025"
   }
    ],
-   "workbench": ["DL4Av6wY5X","aw3d","msc_okn","cog_id"], "viewerMode": "3d", "baseMaps": {
+   "workbench": ["DL4Av6wY5X","aw3d","msc_okn","cog_id","msc_wms_2025"], "viewerMode": "3d", "baseMaps": {
     "defaultBaseMapId": "basemap-positron"
     }
   }
