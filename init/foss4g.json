@@ -39,7 +39,7 @@
     "id": "msc_wms_2025"
   }
    ],
-   "workbench": ["DL4Av6wY5X","aw3d","msc_okn","cog_id","msc_wms_2025"], "viewerMode": "3d", "baseMaps": {
+   "workbench": ["DL4Av6wY5X","aw3d","msc_okn","msc_wms_2025","cog_id"], "viewerMode": "3d", "baseMaps": {
     "defaultBaseMapId": "basemap-positron"
     }
   }
